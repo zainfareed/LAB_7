@@ -1,11 +1,11 @@
 #include<iostream>
-#include<box.h>
-void box::add()
+#include "box.h"
+void Box::add()
 {
 z=x+y;
-cout<<adder<<endl;
+
 }
-void box::display()
+void Box::desplay()
 {
 cout<<z<<endl;
 }
