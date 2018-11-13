@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 #include "box.h"
 void Box::add()
 {
