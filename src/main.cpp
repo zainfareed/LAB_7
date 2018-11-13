@@ -1,9 +1,9 @@
 #include<iostream>
 #include "box.h"
 
-int int main(int argc, char const *argv[]) {
-  Box obj;
-  obj.add(10,20);
-  obj.desplay();
+int main(int argc, char const *argv[]) {
+  Box obj(10,20);
+ obj.add();
+ obj.desplay();
   return 0;
 }
